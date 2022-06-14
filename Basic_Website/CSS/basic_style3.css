@@ -8,7 +8,7 @@ h1 {
     text-shadow: 1px .5px 4px rgba(0,0,0,0.6);
 }
 
-container {
+.container {
     width: 450px;
     height: 450px;
     background-color: #faebd7;
@@ -37,7 +37,7 @@ container {
 ---------------------------------------*/
 .squares:nth-child(-n+4) p{
     font-family: "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
-    font-size: 1.5cm;
+    font-size: 1.5em;
     font-weight: 900;
     text-align: center;
     margin: 0;
