@@ -1,42 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Johnny Depp and Amber Heard</title>
 		<meta charset="utf-8">
+		<title>Studio Ghibli Movies</title>
+		<link rel="stylesheet" href="./css/one_page_website.css">
 	</head>
 	<body>
 	
 		<!--NAV-->
-		<div>
-			<div>
-				<ul>
-					<a href="#home" id="link"><li>HOME</li></a>
-					<a href="#contact" id="link"><li>CONTACT</li></a>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home"><li>HOME</li></a>
+					<a href="#gallery"><li>RECOMMENDATIONS</li></a>
+					<a href="#contact"><li>CONTACT</li></a>
 				</ul>
 			</div>
 		</div>
 		<!--END NAV-->
 		
-		<header>
-			<h1>This is one court case that no one will forget.</h1>
-			<p>Johnny Depp sued Amber Heard for defamation because of an op-ed she published in the Washington Post in 2018.</p>
-		</header>
+		<!--HOME-->
+		<div id="home">
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">Studio Ghibli Movies</span>
+				</div>
+			</div>
+		</div>
+		<!--END HOME-->
 		
-		<iframe width="560" height="315" 
-		src="https://www.youtube.com/embed/aLijtnMLRg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-		</iframe>
+		<!--VIDEO-->
+		<section id="video">
+			<h1>Top 10 Studio Ghibli Movies</h1>
+			<div class="video-container">
+				<iframe width="560" height="315" 
+				src="https://www.youtube.com/embed/xJWLxxD0Hp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+				</iframe>
+			</div>
+		</section>
+		<!--END VIDEO-->
+
+		<!--GALLERY-->
+		<section id="gallery">
+			<div class="container">
+				<h1>My Personal Recommandations</h1>
+				<div class="flex-container">
+
+					<!--PHOTO CONTAINER 1-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Spirited_Away_Japanese_poster.png/220px-Spirited_Away_Japanese_poster.png" alt="Spirited Away">
+							<div class="photo-overlay">
+								<h3>Spirited Away</h3>							
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO CONTAINER 1-->
+
+					<!--PHOTO CONTAINER 2-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="https://upload.wikimedia.org/wikipedia/en/9/9d/Ponyo_%282008%29.png" alt="Ponyo">
+							<div class="photo-overlay">
+								<h3>Ponyo</h3>							
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO CONTAINER 2-->
+
+					<!--PHOTO CONTAINER 3-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/Howls-moving-castleposter.jpg/220px-Howls-moving-castleposter.jpg" alt="Howl's Moving Castle">
+							<div class="photo-overlay">
+								<h3>Howl's Moving Castle</h3>
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO CONTAINER 3-->
+
+				</div>
+			</div>
+		</section>
+		<!--END GALLERY-->
 		
 		<!--CONTACT-->
 		<section>
 			<div id="contact">
 				<div>
 					<h1>Contact</h1>
-					<div>
-						<h4><span>Let's discuss the trial!</span></h2>
+					<div class="reservation">
+						<h4>Let's talk about the movies!</h2>
 						<p>
-							Please provide your basic contact information.
+							Please provide me with your basic contact information.
 						</p>
-						<div>
+						<div class="form-rsvp">
 							<form action="" method="post">
 								<input class="rsvp" type="text" value="First Name">
 								<input class="rsvp" type="text" value="Last Name">
@@ -57,8 +115,8 @@
 		<!--END RSVP-->
 		
 		<!--FOOTER-->
-		<div>
-			www.myonepagewebsite.web &nbsp;|&nbsp; &copy; 2022
+		<div id="footer">
+			www.onepagewebsite.web &nbsp;|&nbsp; &copy; 2022
 		</div>
 		<!--END FOOTER-->
 	</body>
