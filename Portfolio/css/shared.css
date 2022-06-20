@@ -186,7 +186,7 @@ ABOUT
     float: left;
   }
 
-.container_image2 {
+#video {
   width: 250px;
   margin: 30px;
   border-radius: 50%;
